@@ -24,7 +24,7 @@ li {
 .NapXu {
 
     width: 100%;
-    height: 0vh;
+    height: 80vh;
     font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
 }
 .NapXu_content{
@@ -58,6 +58,8 @@ li {
 .NapXu_content {
     width: 100%;
     min-height: 500px;
+    border-bottom: 0.5px solid #ddd;
+    height: 70vh;
 }
 
 .NapXu_content-login {
@@ -67,6 +69,9 @@ li {
 
 }
 
+.NapXu_content {
+    border-bottom: 2px solid #c6c4c4;
+}
 
 .NapXu_content-login {
     display: flex;
@@ -276,7 +281,10 @@ li {
 }
 
 @media (max-width: 390px) {
-    
+    .NapXu_content {
+        min-height: 50%;
+    }
+
     .NapXu_footer-btn-nap {
 
         min-width: 250px;
