@@ -1,0 +1,373 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+
+}
+
+.NapXu_content-col-button {
+    margin-top: 10px;
+}
+.text{
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    margin-top: 16px;
+    line-height: 1.2;
+    font-size: 17px;
+}
+
+.NapXu {
+
+    width: 100%;
+    height: 100vh;
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+}
+
+.NapXu_header {
+
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    border-bottom: 0.5px solid #ddd;
+}
+
+.NapXu_header_h3 {
+    text-align: center;
+    margin: 0;
+    flex-grow: 1;
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 17px;
+
+}
+
+#NapXu_header-icon {
+    margin-left: 15px;
+
+}
+
+.NapXu_content {
+    width: 100%;
+    min-height: 500px;
+    border-bottom: 0.5px solid #ddd;
+    height: 80vh;
+}
+
+.NapXu_content-login {
+    width: 100%;
+    min-height: 70px;
+    background: #f5f3f3;
+
+}
+
+.NapXu_content {
+    border-bottom: 2px solid #c6c4c4;
+}
+
+.NapXu_content-login {
+    display: flex;
+    width: 100%;
+    min-height: 70px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.NapXu_content-login p {
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.NapXu_content-login-icon {
+    cursor: pointer;
+}
+
+.NapXu_content-col {
+
+    padding: 0 20px 0 20px;
+
+}
+
+.NapXu_content-col>h3 {
+
+
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.tiktok-coin {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(max(96px, (100% - 24px) / 4), 1fr));
+    gap: 8px;
+}
+
+
+.btn {
+
+    width: 100%;
+    position: relative;
+    min-height: 68px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 2px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    user-select: none;
+    cursor: pointer;
+    pointer-events: initial;
+    opacity: 1;
+    word-break: break-word;
+    padding: 2px 0px;
+    background-color: transparent;
+}
+
+.tiktok-coin-item {
+    min-height: 24px;
+    display: flex;
+
+}
+
+.btnCoin>svg {
+    width: 16px;
+    height: 16px;
+}
+
+.btn span {
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    display: inline-flex;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(22, 24, 35);
+    vertical-align: middle;
+    margin-right: 0px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+    appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.tiktok-text {
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    display: inline-flex;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(22, 24, 35);
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-right: 0px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+    appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn>div {
+    margin-top: 4px;
+    color: rgba(22, 24, 35, 0.5);
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 12px;
+    margin-left: 0px;
+    text-align: center;
+    line-height: 1;
+}
+
+.NapXu_footer {
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 0 20px;
+
+}
+
+.NapXu_footer-sum {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.NapXu_footer-sum>span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+}
+.NapXu_footer-btn{
+    width: 100%;
+    display: flex;
+}
+
+.NapXu_footer-btn-nap {
+    align-items: center;
+    text-align: center;
+}
+
+.NapXu_footer-btn-question {
+    width: 45px;
+    height: 45px;
+    border: 0.5px solid #ddd;
+    margin-right: 5px;
+    background: none;
+}
+
+.NapXu_footer-btn-question>i {
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+.NapXu_footer-btn-nap {
+    border-radius: 2px;
+    border: none;
+    color: rgb(68, 68, 68);
+    background-color: rgb(241, 241, 241);
+    min-width: 144px;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 6px 8px;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 0px;
+    height: 44px;
+    flex: 1 1 0%;
+}
+
+.NapXu_footer-btn-nap>span {
+    line-height: 1.2;
+    font-weight: 700;
+    font-size: 14px;
+    color: #8d8888;
+}
+
+.discoloration{
+    border: 1px solid #ffe600;
+}
+
+@media (max-width: 480px) {
+    .NapXu_content {
+        min-height: 690px;
+    }
+}
+
+@media (max-width: 390px) {
+    .NapXu_content {
+        min-height: 550px;
+    }
+
+    .NapXu_footer-btn-nap {
+
+        min-width: 250px;
+
+    }
+
+    .NapXu_footer-sum {
+        align-items: center;
+        display: flex;
+
+    }
+}
+
+@media (min-width: 741px) and (max-width: 1023px) {
+    .NapXu_content {
+        min-height: 800px;
+    }
+
+    .NapXu_footer-btn-nap {
+        text-align: center;
+        align-items: center;
+    }
+
+    .btn {
+
+        margin: 5px 0 5px 0;
+        min-width: 210px;
+        min-height: 110px;
+        justify-content: baseline;
+        border: 0.5px solid #e2dfdf;
+        cursor: pointer;
+        background: none;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+    .btn>svg {
+        width: 2em;
+        height: 2em;
+    }
+
+    .btn span {
+        color: rgb(22, 24, 35);
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .btn>div {
+        color: rgba(22, 24, 35, 0.5);
+        font-weight: 400;
+        line-height: 1.1;
+        font-size: 19px;
+    }
+
+    .NapXu_footer-btn-nap {
+        border: none;
+        min-width: 600px;
+        padding: 15px 0 15px 15px;
+    }
+
+    .NapXu_footer-btn-nap>span {
+        line-height: 1.2;
+        font-weight: 700;
+        font-size: 18px;
+        color: #8d8888;
+    }
+
+    .NapXu_footer-sum>span {
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .NapXu_footer-btn-question {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .NapXu_footer-btn-nap {
+        position: absolute;
+        bottom: 50px;
+        right: 15%;
+
+    }
+
+}
