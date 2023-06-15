@@ -36,7 +36,6 @@ li {
     display: flex;
     align-items: center;
     min-height: 50px;
-    border-bottom: 0.5px solid #ddd;
 }
 
 .NapXu_header_h3 {
@@ -58,7 +57,6 @@ li {
 .NapXu_content {
     width: 100%;
     min-height: 500px;
-    border-bottom: 0.5px solid #ddd;
     height: 70vh;
 }
 
@@ -69,9 +67,6 @@ li {
 
 }
 
-.NapXu_content {
-    border-bottom: 2px solid #c6c4c4;
-}
 
 .NapXu_content-login {
     display: flex;
@@ -274,10 +269,12 @@ li {
     border: 1px solid #ffe600;
 }
 .footer {
+    border-top: 1px solid #ddd;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-bottom: 20px;
   }
 
 @media (max-width: 480px) {
