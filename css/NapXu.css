@@ -335,7 +335,7 @@ li {
         font-weight: 800;
         font-size: 28px;
         line-height: 1.2;
-        
+
     }
 
     .btn>div {
@@ -349,6 +349,7 @@ li {
         border: none;
         min-width: 600px;
         padding: 15px 0 15px 15px;
+        border: 1px solid #ddd;
     }
 
     .NapXu_footer-btn-nap>span {
