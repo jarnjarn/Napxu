@@ -28,7 +28,7 @@ li {
     font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
 }
 .NapXu_content{
-    height: 70vh;
+    height: 60vh;
 }
 
 .NapXu_header {
@@ -59,7 +59,7 @@ li {
     width: 100%;
     min-height: 500px;
     border-bottom: 0.5px solid #ddd;
-    height: 80vh;
+    height: 60vh;
 }
 
 .NapXu_content-login {
@@ -282,7 +282,7 @@ li {
 
 @media (max-width: 390px) {
     .NapXu_content {
-        min-height: 450px;
+        min-height: 50%;
     }
 
     .NapXu_footer-btn-nap {
