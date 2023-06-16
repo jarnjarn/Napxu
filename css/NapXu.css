@@ -179,7 +179,6 @@ li {
 }
 
 .btn>div .money {
-    margin-top: -2px;
     color: rgba(22, 24, 35, 0.5);
     font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
     font-size: 12px;
