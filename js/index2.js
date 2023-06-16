@@ -102,10 +102,11 @@ inputDiv.addEventListener("input", function() {
     alert("Vui lòng chỉ nhập số!");
     return;
   }
-  var result = parseInt(inputValue) * 30;
+  var result = parseInt(inputValue) * 27;
+  var total = result/1800
   var moneyElement = document.getElementById("money");
-  moneyElement.textContent = result;
-  resultElement.textContent = result;
+  moneyElement.textContent = total;
+  resultElement.textContent = total;
  
 });
 

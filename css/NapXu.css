@@ -225,6 +225,12 @@ li {
     padding: 0px 20px 0 20px;
 
 }
+footer {
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 0 20px;
+    background: #f5f3f3;
+}
 
 .NapXu_footer-sum {
     width: 100%;
