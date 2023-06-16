@@ -11,6 +11,9 @@ var inputDiv = document.querySelector(".input-coin");
 var money = document.getElementById("money");
 var moneymenu = document.querySelector(".money-menu");
 var resultElement = document.getElementById("text-money-result")
+var login = document.getElementById("login");
+var logout = document.getElementById("logout");
+btnLogout = document.getElementById("logout-btn");
 var timeout;
 for (let i = 0; i < 8; i++) {
   document.getElementById("btn-coin" + i).addEventListener("click", function (e) {
@@ -105,4 +108,25 @@ inputDiv.addEventListener("input", function() {
   resultElement.textContent = result;
  
 });
+
+function login1() {
+  login.style.display = "none";
+  showPopup1();
+  setTimeout(function () {
+    logout.style.display = "block";
+  }, 1000);
+
+}
+function logout1() {
+  logout.style.display = "none";
+  showPopup1();showPopup1();
+  setTimeout(function () {
+    login.style.display = "block";
+  }, 1000);
+}
+
+login.addEventListener("click", login1);
+btnLogout.addEventListener("click", logout1);
+
+
 

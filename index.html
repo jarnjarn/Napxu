@@ -38,12 +38,65 @@
                         d="M8.28 42.16a18 18 0 0131.37 0A23.9 23.9 0 0123.97 48c-6 0-11.48-2.2-15.69-5.84z"
                         fill="#F0F0F0"></path>
                 </svg>
-                <p>Đăng Nhập</p>
+                <div id="login">
+                    <p>Đăng Nhập</p>
+                </div>
+                <div id="logout" class="logout">
+                    <div>
+                        <div class="log">
+
+                            <div style="margin-left: 10px;">
+                                <p>Thai hoc</p>
+                                <div>
+                                    <svg class="btn-icon" width="1.5em" data-e2e="" height="15.em" viewBox="0 0 48 48"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="24" cy="24" r="22" fill="#FFEC9B">
+                                        </circle>
+                                        <circle cx="24" cy="24" r="17" fill="#FACE15"></circle>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z"
+                                            fill="#FABC15"></path>
+                                        <path
+                                            d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z"
+                                            fill="#FEF5CD"></path>
+                                    </svg>
+                                    <span>0</span>
+                                </div>
+                            </div>
+                            <div id="logout-btn" class="logout-icon">
+                                <svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"
+                                    width="1em" height="1em">
+                                    <path
+                                        d="M34.96 9c1.05 0 1.91.86 1.91 1.92v26.16c0 1.06-.86 1.92-1.91 1.92h-9a.96.96 0 00-.96.96v2.08c0 .53.43.96.96.96H36.2a4.8 4.8 0 004.8-4.8V9.8A4.8 4.8 0 0036.2 5H25.96a.96.96 0 00-.96.96v2.08c0 .53.43.96.96.96h9z">
+                                    </path>
+                                    <path
+                                        d="M12.8 15.65a.96.96 0 011.35 0l1.45 1.42a.96.96 0 01-.02 1.4L11.7 22h17.33c.53 0 .96.43.96.96v2.08c0 .53-.43.96-.96.96H11.71l3.94 4.04c.37.37.37.98-.01 1.35l-1.5 1.46a.96.96 0 01-1.33 0l-8.1-7.91a.96.96 0 010-1.38l8.1-7.9z">
+                                    </path>
+                                </svg>
+                                <p>Đăng xuất</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
             <div class="NapXu_content-col">
+
                 <h3 class="test">
                     Nạp Xu
                 </h3>
+                <div class="others">
+                    <svg class="NapXu_content-login-icon" font-size="44px" viewBox="0 0 48 48" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <circle cx="24" cy="24" r="24" fill="#C3C3C3"></circle>
+                        <circle cx="24" cy="22" r="9" fill="#F0F0F0"></circle>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.28 42.16a18 18 0 0131.37 0A23.9 23.9 0 0123.97 48c-6 0-11.48-2.2-15.69-5.84z"
+                            fill="#F0F0F0"></path>
+                    </svg>
+                    <input class="others-input" type="text" placeholder="nhập tên">
+                </div>
                 <div class="NapXu_content-col-button">
                     <ol class="tiktok-coin">
                         <li>
@@ -181,7 +234,8 @@
                                     <span class="coin">7,000</span>
                                 </div>
 
-                                <div>₫ <spam class="money">1,910,000</spam></div>
+                                <div>₫ <spam class="money">1,910,000</spam>
+                                </div>
                             </button>
                         </li>
                         <li>
@@ -228,7 +282,7 @@
                                     <div class="input-coin">
                                         <input id="inputCustom" class="coin" type="text">
                                     </div>
-                                    
+
                                 </div>
                                 <span id="money" class="money">0</span>
                                 <div class="money-menu">Hỗ trợ số lượng lớn</div>
@@ -239,8 +293,11 @@
                     <div class="payment">
                         <img src="./img/MoMo_Logo.png" alt="">
                         <img style="width: 50px;" src="./img/ZaloPay_Logo.png" alt="">
-                        <img src="./img/png-transparent-visa-debit-card-credit-card-logo-mastercard-visa-text-trademark-logo.png" alt="">
-                        <img style="width: 30px;" src="./img/png-transparent-discover-card-discover-financial-services-credit-card-bank-finance-credit-card-text-orange-payment.png" alt="">
+                        <img src="./img/png-transparent-visa-debit-card-credit-card-logo-mastercard-visa-text-trademark-logo.png"
+                            alt="">
+                        <img style="width: 30px;"
+                            src="./img/png-transparent-discover-card-discover-financial-services-credit-card-bank-finance-credit-card-text-orange-payment.png"
+                            alt="">
                     </div>
                 </div>
             </div>
@@ -250,7 +307,8 @@
         <div class="NapXu_footer footer">
             <div class="NapXu_footer-sum">
                 <span class="NapXu_footer-sum-text">Tổng</span>
-                <span class="NapXu_footer-sum-number">₫ <span id="text-money-result" class="text-money-result"></span></span>
+                <span class="NapXu_footer-sum-number">₫ <span id="text-money-result"
+                        class="text-money-result"></span></span>
             </div>
             <div id="pay" class="NapXu_footer-btn">
                 <button aria-label="Câu hỏi thường gặp" class="NapXu_footer-btn-question">
@@ -259,12 +317,12 @@
                 <button id="btn-buy" class="NapXu_footer-btn-nap">
                     Nạp tiền
                 </button>
-    
+
             </div>
         </div>
 
     </div>
-    
+
     <!-- THÀNH CÔNG -->
     <div id="result" class="result">
         <div class="thanhcong">
@@ -289,7 +347,7 @@
     <!-- THẤT BẠI -->
     <div id="resultload" class="result1">
         <div class="thatbai">
-            <div  class="pupupResult1">
+            <div class="pupupResult1">
                 <div class="thatbai-icon">
                     <i id="icon" class="fa-sharp fa-regular fa-hourglass-half fa-2x"></i>
                 </div>

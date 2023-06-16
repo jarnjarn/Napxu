@@ -9,7 +9,20 @@ li {
     list-style: none;
 
 }
-
+.log{
+    display: flex;
+}
+.logout{
+    display: none;
+}
+.logout-icon{
+    display: flex;
+    right: 0;
+    opacity: 1;
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 .NapXu_content-col-button {
     margin-top: 10px;
 }
@@ -98,6 +111,25 @@ li {
     font-weight: bold;
     margin-top: 20px;
 
+}
+.others{
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px 0;
+    display: flex;
+}
+.others>svg{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.others-input{
+    line-height: 25px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
 }
 
 .tiktok-coin {
