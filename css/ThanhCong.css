@@ -31,6 +31,7 @@
 .thanhcong,
 .thatbai {
   width: 100%;
+  height: 100vh;
   font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
   display: flex;
   flex-direction: column;
@@ -129,6 +130,7 @@
     font-size: 25px;
 
   }
+
 }
 
 .thatbai-icon {
@@ -141,6 +143,7 @@
 }
 
 .date {
+
   margin-top: 20px;
 }
 
@@ -151,7 +154,12 @@
 .active1{
  display: block;
 }
-
+.payment{
+  margin-top: 20px;
+}
+.payment img{
+  width: 30px;
+}
 #icon {
   animation: spin 2s linear 1000000; /* 2s: thời gian một vòng xoay, linear: tốc độ đều, infinite: vô hạn */
 }

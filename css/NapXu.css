@@ -178,8 +178,8 @@ li {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.btn>div {
-    margin-top: 4px;
+.btn>div .money {
+    margin-top: -2px;
     color: rgba(22, 24, 35, 0.5);
     font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
     font-size: 12px;
@@ -275,8 +275,25 @@ li {
     bottom: 0;
     width: 100%;
     margin-bottom: 20px;
-  }
+}
 
+.input-coin{
+    display: none;
+}
+.input-coin>input{
+    width: 90px;
+    padding: 5px;
+}
+#money{
+    display: none;
+    margin-top: 4px;
+    color: rgba(22, 24, 35, 0.5);
+    font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 12px;
+    margin-left: 0px;
+    text-align: center;
+    line-height: 1;
+}
 @media (max-width: 480px) {
     .NapXu_content {
         min-height: 690px;
@@ -378,4 +395,11 @@ li {
 
     }
 
+}
+
+.active2{
+    display: block;
+}
+.active3{
+    display: none;
 }

@@ -47,7 +47,7 @@
                 <div class="NapXu_content-col-button">
                     <ol class="tiktok-coin">
                         <li>
-                            <button class="btn" id="btn-coin">
+                            <button class="btn" id="btn-coin0">
                                 <div class="tiktok-coin-item">
                                     <span class="btnCoin">
                                         <svg class="btn-icon" width="1.5em" data-e2e="" height="15.em"
@@ -63,9 +63,9 @@
                                                 fill="#FEF5CD"></path>
                                         </svg>
                                     </span>
-                                    <span>70</span>
+                                    <span class="coin">70</span>
                                 </div>
-                                <div>₫ 19,100</div>
+                                <div>₫ <span class="money">19,100</span></div>
                             </button>
                         </li>
                         <li> <button class="btn" id="btn-coin1">
@@ -84,9 +84,9 @@
                                                 fill="#FEF5CD"></path>
                                         </svg>
                                     </span>
-                                    <span>350</span>
+                                    <span class="coin">350</span>
                                 </div>
-                                <div>₫ 95,500</div>
+                                <div>₫ <span class="money">95,500</span></div>
                             </button>
                         </li>
                         <li>
@@ -106,10 +106,10 @@
                                                 fill="#FEF5CD"></path>
                                         </svg>
                                     </span>
-                                    <span>700</span>
+                                    <span class="coin">700</span>
                                 </div>
 
-                                <div>₫ 191,000</div>
+                                <div>₫ <span class="money">191,000</span></div>
                             </button>
                         </li>
                         <li>
@@ -129,11 +129,11 @@
                                                 fill="#FEF5CD"></path>
                                         </svg>
                                     </span>
-                                    <span>1,400</span>
+                                    <span class="coin">1,400</span>
                                 </div>
 
 
-                                <div>₫ 382,000</div>
+                                <div>₫ <span class="money">382,000</span></div>
                             </button>
                         </li>
                         <li>
@@ -153,12 +153,12 @@
                                                 fill="#FEF5CD"></path>
                                         </svg>
                                     </span>
-                                    <span>3,500</span>
+                                    <span class="coin">3,500</span>
                                 </div>
 
 
 
-                                <div>₫ 955,000</div>
+                                <div>₫ <span class="money">955,000</span></div>
                             </button>
                         </li>
                         <li>
@@ -178,10 +178,10 @@
                                                 fill="#FEF5CD"></path>
                                         </svg>
                                     </span>
-                                    <span>7,000</span>
+                                    <span class="coin">7,000</span>
                                 </div>
 
-                                <div>₫ 1,910,000</div>
+                                <div>₫ <spam class="money">1,910,000</spam></div>
                             </button>
                         </li>
                         <li>
@@ -201,14 +201,14 @@
                                                 fill="#FEF5CD"></path>
                                         </svg>
                                     </span>
-                                    <span>17,500</span>
+                                    <span class="coin">17,500</span>
                                 </div>
 
-                                <div>₫ 4,755,000</div>
+                                <div>₫ <span class="money">4,755,000</span></div>
                             </button>
                         </li>
                         <li>
-                            <button class="btn">
+                            <button class="btn" id="btn-coin7">
                                 <div class="tiktok-coin-item">
                                     <span class="btnCoin">
                                         <svg class="btn-icon" width="1.5em" data-e2e="" height="1.5em"
@@ -224,13 +224,24 @@
                                                 fill="#FEF5CD"></path>
                                         </svg>
                                     </span>
-                                    <span clas="tiktok-text">Tùy chỉnh</span>
+                                    <span id="custom" clas="tiktok-text">Tùy chỉnh</span>
+                                    <div class="input-coin">
+                                        <input id="inputCustom" class="coin" type="text">
+                                    </div>
+                                    
                                 </div>
-
-                                <div>Hỗ trợ số lượng lớn</div>
+                                <span id="money" class="money">0</span>
+                                <div class="money-menu">Hỗ trợ số lượng lớn</div>
 
                         </li>
                     </ol>
+
+                    <div class="payment">
+                        <img src="./img/MoMo_Logo.png" alt="">
+                        <img style="width: 90px;" src="./img/ZaloPay_Logo.png" alt="">
+                        <!-- <img src="./img/png-transparent-visa-debit-card-credit-card-logo-mastercard-visa-text-trademark-logo.png" alt=""> -->
+                        <img style="width: 80px;" src="./img/png-transparent-discover-card-discover-financial-services-credit-card-bank-finance-credit-card-text-orange-payment.png" alt="">
+                    </div>
                 </div>
             </div>
 
@@ -239,7 +250,7 @@
         <div class="NapXu_footer footer">
             <div class="NapXu_footer-sum">
                 <span class="NapXu_footer-sum-text">Tổng</span>
-                <span class="NapXu_footer-sum-number">₫ 0</span>
+                <span class="NapXu_footer-sum-number">₫ <span id="text-money-result" class="text-money-result"></span></span>
             </div>
             <div id="pay" class="NapXu_footer-btn">
                 <button aria-label="Câu hỏi thường gặp" class="NapXu_footer-btn-question">
@@ -264,7 +275,7 @@
                         Payment Completed
                     </div>
                     <div class="div2">
-                        You recharged 17500 coins.
+                        You recharged <span id="text-coin-result">70</span> coins.
                         You can use Coins to send virtual Gift.
                     </div>
                 </div>
@@ -296,6 +307,6 @@
     </div>
 </body>
 
-<script src="./js/index.js"></script>
+<script src="./js/index2.js"></script>
 
 </html>
