@@ -106,8 +106,8 @@ inputDiv.addEventListener("input", function() {
   var total = result/23500;
 
   var moneyElement = document.getElementById("money");
-  moneyElement.textContent = total.toFixed(2);
-  resultElement.textContent = total.toFixed(2);
+  moneyElement.textContent = "$" + total.toFixed(2);
+  resultElement.textContent = total.toFixed(2)
  
 });
 

@@ -3,11 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: black;
 }
 
 li {
     list-style: none;
-
+    outline: none;
+    
 }
 .log{
     display: flex;
@@ -214,7 +216,7 @@ li {
     color: rgba(22, 24, 35, 0.5);
     font-family: "IBM Plex Sans", ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
     font-size: 12px;
-    margin-left: 0px;
+    margin-left: 3px;
     text-align: center;
     line-height: 1;
 }
